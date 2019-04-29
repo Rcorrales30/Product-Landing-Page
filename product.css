@@ -1,0 +1,70 @@
+.container{
+  width: 100%;
+  background-color: #8590aa ;
+}
+header{
+  background-color: #b23850;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  display:flex;
+  flex-direction: row;
+}
+ img{
+  width: 40%;
+}
+ #business{
+
+ }
+
+ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+li{
+  margin: .3em;
+}
+.nav-link{
+  text-decoration: none;
+}
+section, h2{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+p{
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+#about{
+   padding-top: 15em;
+   margin-bottom: 5em;
+}
+#rushing{
+  display: block;
+  margin: 0 auto;
+
+}
+#form{
+  text-align: center;
+  margin: 20px auto;
+}
+@media (max-width: 600px){
+  iframe{
+    width: 400px;
+  }
+  ul{
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 550px){
+  img{
+    width: 200px;
+  }
+}
